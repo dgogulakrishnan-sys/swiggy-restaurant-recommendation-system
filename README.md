@@ -10,14 +10,7 @@ This project recommends restaurants based on:
 
 The application provides fast and personalized recommendations using similarity-based filtering.
 
----
-
-## Live Demo
-(Add deployment link here once deployed)
-
----
-
-## Features
+Features
 
 -  Sidebar-based smart filtering
 -  Fast recommendation engine
@@ -26,9 +19,7 @@ The application provides fast and personalized recommendations using similarity-
 -  Cached performance optimization
 -  Cosine similarity-based recommendation logic
 
----
-
-##  Tech Stack
+Tech Stack
 
 - Python
 - Pandas
@@ -36,10 +27,7 @@ The application provides fast and personalized recommendations using similarity-
 - Streamlit
 - Cosine Similarity 
 
----
-
-## Project Structure
-
+Project Structure
 
 SWIGGY_RESTAURANT_RECOMMENDATION_SYSTEM/
 │
@@ -52,12 +40,9 @@ SWIGGY_RESTAURANT_RECOMMENDATION_SYSTEM/
 ├── README.md
 └── .gitignore
 
+Installation & Setup
 
----
-
-## Installation & Setup
-
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/swiggy-restaurant-recommendation-system.git
@@ -81,15 +66,3 @@ Similarity matrix is computed using cosine similarity.
 Restaurants are filtered based on user preferences.
 
 Top matching results are displayed in card format.
-
-** Future Improvements
-
-Add restaurant images
-
-Deploy on Streamlit Cloud
-
-Add user login system
-
-Add rating visualization
-
-Optimize using Nearest Neighbors for large datasets
